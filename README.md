@@ -18,6 +18,8 @@ pip install -r requirements.txt
 ##freeze the requerments
 pip freeze > requirements_dev.txt
 
+mongodb ----shimulkhan
+
 
 
 Workflow
