@@ -15,6 +15,11 @@ Step 3. Install the requirements
 
 pip install -r requirements.txt
 
+##freeze the requerments
+pip freeze > requirements_dev.txt
+
+
+
 Workflow
 Constants
 config_entity
