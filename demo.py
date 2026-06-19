@@ -1,0 +1,12 @@
+from shipment.logger import logging
+from shipment.exception import shippingException
+import sys
+
+try:
+    a = 1 / 0
+except Exception as e:
+    raise shippingException(e, sys) from e
+
+
+
+logging.info("This is a info message")
